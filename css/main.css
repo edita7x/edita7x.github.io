@@ -2187,7 +2187,7 @@ input::-moz-focus-inner {
 .about-me__text {
   -webkit-columns: 2 360px;
   -moz-columns: 2 360px;
-  columns: 2 360px;
+  columns: 1 360px;
   column-gap: 64px;
 }
 

@@ -21,6 +21,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const projectsContainer = document.getElementById('projects-container');
     portfolioData.projects.forEach(project => {
         const tagsHtml = project.tags.map(tag => `<span class="project-tag">${tag}</span>`).join('');
+        const linkHtml = project.appStoreLink ? `<a href="${project.appStoreLink}" target="_blank" class="project-link">View Project ↗</a>` : '';
         const projectHtml = `
             <div class="glass-card project-card fade-in">
                 <div class="project-img-container">
@@ -36,6 +37,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     <div class="project-tags">
                         ${tagsHtml}
                     </div>
+                    ${linkHtml}
                 </div>
             </div>
         `;

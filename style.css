@@ -21,6 +21,8 @@
 html {
     scroll-behavior: smooth;
     overflow-x: hidden;
+    width: 100%;
+    max-width: 100%;
 }
 
 body {
@@ -30,6 +32,8 @@ body {
     line-height: 1.6;
     overflow-x: hidden;
     position: relative;
+    width: 100%;
+    max-width: 100%;
 }
 
 /* Background Blobs */

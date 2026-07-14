@@ -363,6 +363,18 @@ p {
     color: var(--text-primary);
 }
 
+.contact-link {
+    color: var(--accent-color);
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.3s ease;
+}
+
+.contact-link:hover {
+    color: var(--gradient-1);
+    text-decoration: underline;
+}
+
 /* Footer */
 footer {
     padding: 2rem 0;

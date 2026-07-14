@@ -3,7 +3,7 @@ const portfolioData = {
         name: "Edit Sanrio Putra",
         title: "Mobile Developer",
         email: "editsanrio@gmail.com",
-        phone: "+62-812-8927-2797",
+        linkedin: "https://www.linkedin.com/in/edit-sanrio-putra-3a0177140/",
         location: "DKI Jakarta",
         summary: "Mobile Developer with 4+ years of experience building native iOS applications using Swift and UIKit, with additional experience in Flutter. Experienced in REST APIs, OAuth, AI integrations, and scalable mobile architectures. Passionate about building high-performance products from concept to deployment.",
         skills: ["Swift", "Front-end Website", "Flutter (Dart)", "UIKit", "Firebase", "RxSwift", "Figma", "Git", "Realm", "Core Data", "Performance Optimization", "Node.js", "Express", "SQLite", "Strava API", "Gemini", "Riverpod", "AI Integration", "Prompt Engineering"]

@@ -3,8 +3,8 @@ document.addEventListener('DOMContentLoaded', () => {
     document.getElementById('hero-name').textContent = portfolioData.profile.name;
     document.getElementById('hero-title').textContent = portfolioData.profile.title;
     document.getElementById('hero-summary').textContent = portfolioData.profile.summary;
-    document.getElementById('contact-email').textContent = `Email: ${portfolioData.profile.email}`;
-    document.getElementById('contact-phone').textContent = `Phone: ${portfolioData.profile.phone}`;
+    document.getElementById('contact-email').innerHTML = `Email: <a href="mailto:${portfolioData.profile.email}" class="contact-link">${portfolioData.profile.email}</a>`;
+    document.getElementById('contact-phone').innerHTML = `Linkedin: <a href="${portfolioData.profile.linkedin}" target="_blank" class="contact-link">Edit Sanrio Putra</a>`;
     document.getElementById('contact-location').textContent = `Location: ${portfolioData.profile.location}`;
     document.getElementById('current-year').textContent = new Date().getFullYear();
 
@@ -61,7 +61,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const fadeElements = document.querySelectorAll('.fade-in');
     fadeElements.forEach(el => observer.observe(el));
-    
+
     // Animate hero section elements immediately
     document.querySelector('.hero-content').classList.add('fade-in');
     setTimeout(() => {
